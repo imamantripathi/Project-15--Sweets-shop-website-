@@ -8,7 +8,7 @@ img {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: static;
+  position: relative;
   margin: auto;
 }
 
@@ -28,7 +28,7 @@ img {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
+  position:absolute;
   top: 0;
 }
 
