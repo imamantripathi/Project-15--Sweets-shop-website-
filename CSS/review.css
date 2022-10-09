@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,900;1,300;1,400;1,700&display=swap");
+.hero {
+  background-color: #cebfab;
+  background-image: linear-gradient(315deg, #f7c177 0%, #fdc0ab 74%);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.hero h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 40px;
+  text-shadow: 2px 2px #61605e;
+}
+.slide-row {
+  display: flex;
+  width: 3200px;
+  transition: 0.5s;
+}
+.slide-col {
+  width: 800px;
+  height: 400px;
+  position: relative;
+}
+.user-img {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  height: 80%;
+}
+.user-img img {
+  height: 100%;
+  border-radius: 10px;
+}
+.user-text {
+  background: #000;
+  font-family: "Merriweather", serif;
+  width: 520px;
+  height: 270px;
+  position: absolute;
+  left: 0;
+  top: 60%;
+  transform: translateY(-50%);
+  border-radius: 10px;
+  color: #fffbfb;
+  font-style: italic;
+  
+  padding: 45px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.user-text p {
+  font-size: 18px;
+  line-height: 24px;
+}
+.user-text h3 {
+  margin: 35px 0 5px;
+}
+.container {
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.indicator {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+}
+.btn {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 4px;
+  border-radius: 15px;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.active {
+  width: 45px;
+}
+.testimonial {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
