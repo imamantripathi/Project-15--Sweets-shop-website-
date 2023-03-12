@@ -8,57 +8,41 @@
     <link rel="stylesheet" href="CSS/slides.css" />
     <link rel="stylesheet" href="CSS/whyChooseUs.css" />
     <link rel="stylesheet" href="CSS/footer.css" />
-    <link rel="stylesheet" href="CSS/review.css">
+    <link rel="stylesheet" href="CSS/review.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="Images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="Images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="Images/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="Images/favicon/site.webmanifest" />
+    <link rel="website icon" href="Images/Brijwasi1.png" />
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
 
   <body>
     <header>
-      <h1>Brijwasi Sweets</h1>
+      <h1 class="text-4xl">Brijwasi Sweets</h1>
       <h4>Sweets • Cakes • Snacks</h4>
     </header>
     <div class="navbar-toggle">
       <i class="fa fa-bars" style="font-size: 100%"></i> MENU
     </div>
-    <nav id="navbar">
+    <nav id="navbar" class="sticky z-10">
       <ul>
         <li><a href="" onclick="javascript:void(0);">Home</a></li>
         <li>
-          <a href="#products">Products</a>
+          <a href="products.html">Products</a>
         </li>
         <li>
-          <a href="https://g.page/brajawasi-sweet-corner?share"
-             target="_blank">Store Location</a
+          <a href="https://g.page/brajawasi-sweet-corner?share" target="_blank"
+            >Store Location</a
           >
         </li>
-        <li><a href="#about">About us</a></li>
-        <li><a href="#contact">Contact us</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="about.html#contact">Contact us</a></li>
       </ul>
     </nav>
 
@@ -66,19 +50,16 @@
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
         <img src="Images/Brijwasi Banner/1.png" style="width: 100%" />
-        <div class="text"></div>
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
         <img src="Images/Brijwasi Banner/2.png" style="width: 100%" />
-        <div class="text"></div>
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
         <img src="Images/Brijwasi Banner/3.png" style="width: 100%" />
-        <div class="text"></div>
       </div>
     </div>
     <br />
@@ -111,138 +92,95 @@
         </div>
       </div>
     </section>
-    <section id="testimonials">
-      <!--heading--->
-      <div class="testimonial-heading">
-          <span>Reviews</span>
-          <h4>What Our Customers Says</h4>
-      </div>
-      <!--testimonials-box-container------>
-      <div class="testimonial-box-container">
-          <!--BOX-1-------------->
-          <div class="testimonial-box">
-              <!--top------------------------->
-              <div class="box-top">
-                  <!--profile----->
-                  <div class="profile">
-                      <!--img---->
-                      <div class="profile-img">
-                          <img src="Images/man_icons/About1.png" />
-                      </div>
-                      <!--name-and-username-->
-                      <div class="name-user">
-                          <strong>Ram Kumar</strong>
-                          <span>@ramkumar</span>
-                      </div>
-                  </div>
-                  <!--reviews------>
-                  <div class="reviews">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i><!--Empty star-->
-                  </div>
-              </div>
-              <!--Comments---------------------------------------->
-              <div class="client-comment">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
-              </div>
-          </div>
-          <!--BOX-2-------------->
-          <div class="testimonial-box">
-              <!--top------------------------->
-              <div class="box-top">
-                  <!--profile----->
-                  <div class="profile">
-                      <!--img---->
-                      <div class="profile-img">
-                          <img src="Images/man_icons/2.png" />
-                      </div>
-                      <!--name-and-username-->
-                      <div class="name-user">
-                          <strong>Noah Wood</strong>
-                          <span>@noahwood</span>
-                      </div>
-                  </div>
-                  <!--reviews------>
-                  <div class="reviews">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i><!--Empty star-->
-                  </div>
-              </div>
-              <!--Comments---------------------------------------->
-              <div class="client-comment">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
-              </div>
-          </div>
-          <!--BOX-3-------------->
-          <div class="testimonial-box">
-              <!--top------------------------->
-              <div class="box-top">
-                  <!--profile----->
-                  <div class="profile">
-                      <!--img---->
-                      <div class="profile-img">
-                          <img src="Images/man_icons/1.png" />
-                      </div>
-                      <!--name-and-username-->
-                      <div class="name-user">
-                          <strong>Oliver Queen</strong>
-                          <span>@oliverqueen</span>
-                      </div>
-                  </div>
-                  <!--reviews------>
-                  <div class="reviews">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i><!--Empty star-->
-                  </div>
-              </div>
-              <!--Comments---------------------------------------->
-              <div class="client-comment">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
-              </div>
-          </div>
-          <!--BOX-4-------------->
-          <div class="testimonial-box">
-              <!--top------------------------->
-              <div class="box-top">
-                  <!--profile----->
-                  <div class="profile">
-                      <!--img---->
-                      <div class="profile-img">
-                          <img src="Images/man_icons/3.png" />
-                      </div>
-                      <!--name-and-username-->
-                      <div class="name-user">
-                          <strong>Barry Allen</strong>
-                          <span>@barryallen</span>
-                      </div>
-                  </div>
-                  <!--reviews------>
-                  <div class="reviews">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i><!--Empty star-->
-                  </div>
-              </div>
-              <!--Comments---------------------------------------->
-              <div class="client-comment">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
-              </div>
-          </div>
-      </div>
-    </section>
-    <br>
-    <!--FOOTER-->
+
+    <br />
+  
+    <div class="mx-auto max-w-5xl px-4 py-8">
+      <h1 class="heading mb-4">Customer Reviews </h1>
+
+      <section class="rounded-lg bg-[#FAD3A3] p-8 mb-6">
+        <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
+          <img
+            alt="Man"
+            src="https://lh3.googleusercontent.com/a-/ACB-R5Q1yz5QW1DgqzQuxuzQ27OwCl0I-UxCMEoOEzdpTfE"
+            class="aspect-square w-full rounded-lg object-cover"
+          />
+
+          <blockquote class="sm:col-span-2">
+            <p class="text-xl font-medium sm:text-xl">
+              I recently visited <b>Brijwasi Sweets Corner</b> and was blown
+              away by the quality of their sweets. The shop is clean and
+              well-maintained, and the staff is knowledgeable about each type of
+              sweet. I highly recommend the ladoos and the barfi - they were
+              absolutely delicious!
+            </p>
+
+            <cite class="mt-8 inline-flex items-center not-italic">
+              <span class="hidden h-px w-6 bg-gray-400 sm:inline-block"></span>
+              <p class="text-sm uppercase text-gray-500 sm:ml-3">
+                <strong>Abhishek Raj</strong>
+              </p>
+            </cite>
+          </blockquote>
+        </div>
+      </section>
+      <section class="rounded-lg bg-[#FFFFE0] p-8 mb-6">
+        <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
+          <blockquote class="sm:col-span-2">
+            <img
+              alt="Man"
+              src="https://lh3.googleusercontent.com/a-/ACB-R5T4ZPqw2W-sAWAoYkUATNmc0hWV4AhT_i4jOthBrQ"
+              class="aspect-square w-full rounded-lg object-cover lg:hidden"
+            />
+            <p class="text-xl font-medium sm:text-xl">
+              If you're looking for authentic Indian sweets,
+              <b>Brijwasi Sweets Corner </b>is the place to go. Their sweets are
+              made with high-quality ingredients and the taste is simply divine.
+              My personal favorite is the peda - it's the perfect balance of
+              sweet and creamy!
+            </p>
+
+            <cite class="mt-8 inline-flex items-center not-italic">
+              <span class="hidden h-px w-6 bg-gray-400 sm:inline-block"></span>
+              <p class="text-sm uppercase text-gray-500 sm:ml-3">
+                <strong>Hari Prazapati</strong>
+              </p>
+            </cite>
+          </blockquote>
+          <img
+            alt="Man"
+            src="https://lh3.googleusercontent.com/a-/ACB-R5T4ZPqw2W-sAWAoYkUATNmc0hWV4AhT_i4jOthBrQ"
+            class="aspect-square w-full rounded-lg object-cover hidden lg:block"
+          />
+        </div>
+      </section>
+      <section class="rounded-lg bg-[#FFD8CB] p-8 mb-6">
+        <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
+          <img
+            alt="Man"
+            src="https://lh3.googleusercontent.com/a-/ACB-R5TtFs4cX5VJdZJ-GUYIGavVXgch5-xpzz2OmyrNKLk"
+            class="aspect-square w-full rounded-lg object-cover"
+          />
+
+          <blockquote class="sm:col-span-2">
+            <p class="text-xl font-medium sm:text-xl">
+              <b> Brijwasi Sweets Corner</b> is a must-visit for anyone with a
+              sweet tooth! The variety of sweets on offer is incredible, and
+              each one is more delicious than the last. I highly recommend the
+              rasgullas and gulab jamuns - they were some of the best I've ever
+              had!
+            </p>
+
+            <cite class="mt-8 inline-flex items-center not-italic">
+              <span class="hidden h-px w-6 bg-gray-400 sm:inline-block"></span>
+              <p class="text-sm uppercase text-gray-500 sm:ml-3">
+                <strong>Rohit Sharma</strong>, Local Guide
+              </p>
+            </cite>
+          </blockquote>
+        </div>
+      </section>
+    </div>
     <footer>
       <div class="footer">
         <section>
@@ -255,10 +193,10 @@
         </section>
         <section>
           <h3>LINKS</h3>
-          <a href="#home">Home</a>
-          <a href="#about">About Us</a>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
 
-          <a href="#contact">Contact Us</a>
+          <a href="about.html#contact">Contact Us</a>
         </section>
         <section>
           <h3>OTHER</h3>
